@@ -5,9 +5,15 @@ function App() {
     <div className="App">
       <div className="body">
         <header className="contacts">
-          <a>Github</a>
-          <a>Email</a>
-          <a>Linkedin</a>
+          <a href="#" rel="noreferrer" target="_blank">
+            Github
+          </a>
+          <a href="#" rel="noreferrer" target="_blank">
+            Email
+          </a>
+          <a href="#" rel="noreferrer" target="_blank">
+            Linkedin
+          </a>
         </header>
         <div className="main-content-container">
           <div>
