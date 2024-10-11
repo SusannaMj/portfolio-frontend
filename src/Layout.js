@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 export default function Layout() {
   return (
@@ -21,16 +21,30 @@ export default function Layout() {
         </main>
         <div className="content-list">
           <h3>Find out more</h3>
-          <ul>
-            <li>About Me</li>
-            <li>Skills</li>
-            <li>Projects</li>
+          <nav>
             <ul>
-              <li>Project A</li>
-              <li>Project B</li>
-              <li>Project C</li>{" "}
+              <li>
+                <Link to="/about">About Me</Link>
+              </li>
+              <li>
+                <Link to="/skills">Skills</Link>
+              </li>
+              <li>
+                <Link>Projects</Link>
+              </li>
+              <ul>
+                <li>
+                  <Link to="project1">Project A</Link>
+                </li>
+                <li>
+                  <Link to="project2">Project B</Link>
+                </li>
+                <li>
+                  <Link to="project3">Project C</Link>{" "}
+                </li>
+              </ul>
             </ul>
-          </ul>
+          </nav>
         </div>
       </div>
       <footer>&copy; susanna2024</footer>
