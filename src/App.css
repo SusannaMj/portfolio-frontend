@@ -1,0 +1,28 @@
+.body {
+  border: 2px solid black;
+  margin: 100px;
+}
+
+.main-content-container {
+  display: grid;
+
+  padding: 100px 100px 100px 50px;
+  grid-template-columns: 4fr 1fr;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+
+  position: relative;
+  top: 15px;
+  right: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+}
