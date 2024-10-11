@@ -10,15 +10,6 @@
   grid-template-columns: 4fr 1fr;
 }
 
-.contact {
-  display: flex;
-  justify-content: flex-end;
-
-  position: relative;
-  top: 15px;
-  right: 15px;
-}
-
 footer {
   display: flex;
   justify-content: flex-end;

@@ -1,20 +1,11 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import Header from "../Layout/Header";
 
 export default function Layout() {
   return (
     <div className="body">
-      <header className="contact">
-        <a href="#" rel="noreferrer" target="_blank">
-          Github
-        </a>
-        <a href="#" rel="noreferrer" target="_blank">
-          Email
-        </a>
-        <a href="#" rel="noreferrer" target="_blank">
-          Linkedin
-        </a>
-      </header>
+      <Header />
       <div className="main-content-container">
         <main className="main-content">
           <Outlet />
