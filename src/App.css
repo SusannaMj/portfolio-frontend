@@ -9,11 +9,3 @@
   padding: 100px 100px 100px 50px;
   grid-template-columns: 4fr 1fr;
 }
-
-footer {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  bottom: 15px;
-  right: 15px;
-}

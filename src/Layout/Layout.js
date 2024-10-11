@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import Header from "../Layout/Header";
+import Footer from "../Layout/Footer";
 
 export default function Layout() {
   return (
@@ -38,7 +39,7 @@ export default function Layout() {
           </nav>
         </div>
       </div>
-      <footer>&copy; susanna2024</footer>
+      <Footer />
     </div>
   );
 }
