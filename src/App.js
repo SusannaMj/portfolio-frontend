@@ -12,13 +12,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Layout />} />
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="skills" elemet={<Skills />} />
-        <Route path="project1" element={<ProjectA />} />
-        <Route path="project2" element={<ProjectB />} />
-        <Route path="project3" element={<ProjectC />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="project1" element={<ProjectA />} />
+          <Route path="project2" element={<ProjectB />} />
+          <Route path="project3" element={<ProjectC />} />
+        </Route>
       </Routes>
     </Router>
   );
