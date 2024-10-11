@@ -1,42 +1,26 @@
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "../src/Layout";
+import Home from "../src/Content/Home";
+import About from "../src/Content/About";
+import Skills from "../src/Content/Skills";
+import ProjectA from "../src/Content/ProjectA";
+import ProjectB from "../src/Content/ProjectB";
+import ProjectC from "../src/Content/ProjectC";
 
 function App() {
   return (
-    <div className="App">
-      <div className="body">
-        <header className="contacts">
-          <a href="#" rel="noreferrer" target="_blank">
-            Github
-          </a>
-          <a href="#" rel="noreferrer" target="_blank">
-            Email
-          </a>
-          <a href="#" rel="noreferrer" target="_blank">
-            Linkedin
-          </a>
-        </header>
-        <div className="main-content-container">
-          <div>
-            <h1>Front-end-developer</h1>
-            <h2>HTML - CSS - Javascript - React</h2>
-          </div>
-          <div className="content-list">
-            <h3>Find out more</h3>
-            <ul>
-              <li>About Me</li>
-              <li>Skills</li>
-              <li>Projects</li>
-              <ul>
-                <li>Project A</li>
-                <li>Project B</li>
-                <li>Project C</li>{" "}
-              </ul>
-            </ul>
-          </div>
-        </div>
-        <footer>&copy; susanna2024</footer>
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="skills" elemet={<Skills />} />
+        <Route path="project1" element={<ProjectA />} />
+        <Route path="project2" element={<ProjectB />} />
+        <Route path="project3" element={<ProjectC />} />
+      </Routes>
+    </Router>
   );
 }
 
