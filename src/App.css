@@ -1,8 +1,13 @@
+:root {
+  background-color: #1d1d20;
+  --grey-white: #cdcdc9;
+}
+
 .body {
   background-color: #1d1d20;
   border: 2px solid black;
   margin: 100px;
-  color: #cdcdc9;
+  color: var(--grey-white);
   font-family: "Times New Roman", Times, serif;
 }
 
