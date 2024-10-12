@@ -1,6 +1,9 @@
 .body {
+  background-color: #1d1d20;
   border: 2px solid black;
   margin: 100px;
+  color: #cdcdc9;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .main-content-container {
