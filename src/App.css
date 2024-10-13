@@ -1,19 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
+  font-family: Montserrat, sans-serif;
+  color: var(--grey-white);
   background-color: #1d1d20;
   --grey-white: #cdcdc9;
-}
-
-.body {
-  background-color: #1d1d20;
-  border: 2px solid black;
-  margin: 100px;
-  color: var(--grey-white);
-  font-family: "Times New Roman", Times, serif;
-}
-
-.main-content-container {
-  display: grid;
-
-  padding: 100px 100px 100px 50px;
-  grid-template-columns: 4fr 1fr;
 }
