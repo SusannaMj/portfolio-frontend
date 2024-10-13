@@ -1,16 +1,17 @@
 .page-body {
   background-color: #1d1d20;
 
-  margin: 200px;
+  margin: 80px 200px 80px 200px;
   position: relative;
+  border-radius: 10px;
 }
 
 .main-content-container {
   display: grid;
 
-  padding: 100px;
+  padding: 100px 250px 100px 100px;
   grid-template-columns: 4fr 1fr;
-  column-gap: 120px;
+  column-gap: 140px;
 }
 
 main {
@@ -22,8 +23,8 @@ main {
 
   position: absolute;
   background: linear-gradient(45deg, #f7f7a3, #d3c9ff);
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   top: -20px;
   left: -20px;
   z-index: -1;
@@ -34,8 +35,8 @@ main {
   content: "";
   position: absolute;
   background: linear-gradient(45deg, #d3c9ff, #f7f7a3);
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   bottom: -20px;
   right: -20px;
   border-radius: 20px;
