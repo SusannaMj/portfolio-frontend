@@ -6,3 +6,11 @@
   top: 15px;
   right: 15px;
 }
+
+.contact a {
+  padding-left: 35px;
+}
+
+.contact-icon {
+  font-size: 30px;
+}

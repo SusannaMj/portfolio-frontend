@@ -8,13 +8,22 @@ export default function Header() {
   return (
     <header className="contact">
       <a href="#" rel="noreferrer" target="_blank">
-        <FaGithub style={{ color: "var(--grey-white)" }} />
+        <FaGithub
+          style={{ color: "var(--grey-white)" }}
+          className="contact-icon"
+        />
       </a>
       <a href="#" rel="noreferrer" target="_blank">
-        <FaEnvelope style={{ color: "var(--grey-white)" }} />
+        <FaEnvelope
+          style={{ color: "var(--grey-white)" }}
+          className="contact-icon"
+        />
       </a>
       <a href="#" rel="noreferrer" target="_blank">
-        <FaLinkedinIn style={{ color: "var(--grey-white)" }} />
+        <FaLinkedinIn
+          style={{ color: "var(--grey-white)" }}
+          className="contact-icon"
+        />
       </a>
     </header>
   );
