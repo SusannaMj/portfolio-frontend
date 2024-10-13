@@ -1,0 +1,43 @@
+.page-body {
+  background-color: #1d1d20;
+
+  margin: 200px;
+  position: relative;
+}
+
+.main-content-container {
+  display: grid;
+
+  padding: 100px;
+  grid-template-columns: 4fr 1fr;
+  column-gap: 120px;
+}
+
+main {
+  text-align: justify;
+}
+
+.page-body::before {
+  content: "";
+
+  position: absolute;
+  background: linear-gradient(45deg, #f7f7a3, #d3c9ff);
+  height: 250px;
+  width: 250px;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.page-body::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(45deg, #d3c9ff, #f7f7a3);
+  height: 250px;
+  width: 250px;
+  bottom: -20px;
+  right: -20px;
+  border-radius: 20px;
+  z-index: -1;
+}
