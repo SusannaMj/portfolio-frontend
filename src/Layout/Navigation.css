@@ -1,10 +1,18 @@
 nav li {
-  font-size: 25px;
+  font-size: 17px;
   list-style: none;
+  margin-bottom: 20px;
 }
 
-.content-list {
-  padding-left: 0;
+.navigation a {
+  text-decoration: none;
+  color: var(--grey-white);
+  border-bottom: 1px solid;
+  border-color: linear-gradient(45deg, #d3c9ff, #f7f7a3);
+}
+
+.content-list-container {
+  padding-top: 70px;
 }
 
 .navigation {
@@ -24,6 +32,7 @@ nav li {
 }
 
 .content-list {
+  padding-left: 0;
   position: relative;
   padding: 35px;
   background-color: #1d1d20;

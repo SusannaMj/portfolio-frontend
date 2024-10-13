@@ -4,7 +4,17 @@ import "./Navigation.css";
 export default function Navigation() {
   return (
     <div className="content-list-container">
-      <h3>Find out more</h3>
+      <h3
+        style={{
+          fontSize: "40px",
+          marginBottom: "30px",
+          fontWeight: "350",
+          position: "relative",
+          left: "10px",
+        }}
+      >
+        More
+      </h3>
       <nav className="navigation">
         <ul className="content-list">
           <li>
