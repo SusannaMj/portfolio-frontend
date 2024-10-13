@@ -1,0 +1,5 @@
+.home-container p {
+  border-left: 5px solid;
+  border-color: linear-gradient(45deg, #d3c9ff, #f7f7a3);
+  padding-left: 30px;
+}
