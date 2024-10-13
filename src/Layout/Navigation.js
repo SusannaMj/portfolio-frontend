@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import "./Navigation.css";
 export default function Navigation() {
   return (
-    <div className="content-list">
+    <div className="content-list-container">
       <h3>Find out more</h3>
-      <nav>
-        <ul>
+      <nav className="navigation">
+        <ul className="content-list">
           <li>
-            <Link to="/about">About Me</Link>
+            <Link to="/about" className="navigation-link">
+              About Me
+            </Link>
           </li>
           <li>
             <Link to="/skills">Skills</Link>
@@ -16,7 +18,7 @@ export default function Navigation() {
           <li>
             <Link>Projects</Link>
           </li>
-          <ul>
+          <ul className="project-list">
             <li>
               <Link to="project1">Project A</Link>
             </li>

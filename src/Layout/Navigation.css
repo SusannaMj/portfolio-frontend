@@ -1,0 +1,32 @@
+nav li {
+  font-size: 25px;
+  list-style: none;
+}
+
+.content-list {
+  padding-left: 0;
+}
+
+.navigation {
+  position: relative;
+  margin: 10px;
+}
+.navigation::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  height: 120px;
+  width: 120px;
+
+  background: linear-gradient(45deg, #f7f7a3, #d3c9ff);
+  border-radius: 10px;
+}
+
+.content-list {
+  position: relative;
+  padding: 35px;
+  background-color: #1d1d20;
+  z-index: 5;
+  border-radius: 10px;
+}
