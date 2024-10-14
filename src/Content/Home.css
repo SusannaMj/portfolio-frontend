@@ -4,7 +4,7 @@
   padding-left: 30px;
   opacity: 0;
 
-  animation: reveal 3s linear;
+  animation: reveal 2s linear;
   animation-delay: 2s;
   animation-fill-mode: forwards;
 }

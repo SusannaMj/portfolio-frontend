@@ -29,6 +29,9 @@ nav li {
 
   background: linear-gradient(45deg, #f7f7a3, #d3c9ff);
   border-radius: 10px;
+  opacity: 0;
+  animation: appear 2s ease-in forwards;
+  animation-delay: 4s;
 }
 
 .content-list {
@@ -38,4 +41,44 @@ nav li {
   background-color: #1d1d20;
   z-index: 5;
   border-radius: 10px;
+  opacity: 0;
+  animation: slide-left 2s ease forwards;
+  animation-delay: 3s;
+}
+
+.content-list-container h3 {
+  opacity: 0;
+  animation: slide-down 1s ease-in forwards;
+  animation-delay: 3s;
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
