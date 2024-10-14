@@ -1,12 +1,17 @@
 import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 import "./Home.css";
 export default function Home() {
   return (
     <div className="home-container">
-      <h1
-        style={{ fontSize: "116px", fontWeight: "100", marginBottom: "20px" }}
-      >
-        Hi There.
+      <h1>
+        <Typewriter
+          words={["Hi There."]}
+          cursor
+          cursorStyle=""
+          typeSpeed={100}
+          delaySpeed={1000}
+        />
       </h1>
       <p style={{ lineHeight: "1.6", fontSize: "17px" }}>
         My name is Susanna, I am a front-end and aspiring backend developer from
