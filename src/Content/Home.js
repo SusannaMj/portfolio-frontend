@@ -9,7 +9,7 @@ export default function Home() {
           words={["Hi There."]}
           cursor
           cursorStyle=""
-          typeSpeed={100}
+          typeSpeed={150}
           delaySpeed={1000}
         />
       </h1>
