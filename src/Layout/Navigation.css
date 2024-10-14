@@ -48,7 +48,7 @@ nav li {
 
 .content-list-container h3 {
   opacity: 0;
-  animation: slide-down 1s ease-in forwards;
+  animation: slide-down 1s ease forwards;
   animation-delay: 3s;
 }
 
