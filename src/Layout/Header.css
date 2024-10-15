@@ -1,9 +1,9 @@
 .contact {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 
   position: relative;
-  top: 15px;
+  top: 25px;
   right: 15px;
 }
 
@@ -13,4 +13,19 @@
 
 .contact-icon {
   font-size: 30px;
+}
+
+.home-icon {
+  animation: rotate 4s linear infinite;
+  transform-origin: 5px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
 }
