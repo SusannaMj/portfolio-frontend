@@ -3,6 +3,8 @@
 :root {
   font-family: Montserrat, sans-serif;
   color: var(--grey-white);
-  background-color: #1d1d20;
+
+  background-color: var(--main-black);
   --grey-white: #cdcdc9;
+  --main-black: rgb(29, 29, 32);
 }
