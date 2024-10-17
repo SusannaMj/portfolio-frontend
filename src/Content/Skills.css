@@ -15,10 +15,10 @@
 
 .soft-skills {
   display: grid;
+
   column-gap: 8px;
   row-gap: 8px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  height: 300px;
 }
 
 .coding-skills .skill {
@@ -32,8 +32,30 @@
 .skill:hover {
   background-color: rgb(240, 190, 106);
   transition: all 100ms ease-in;
+  color: var(--secondary-black);
 }
 
 .skill {
-  background-color: rgb(61, 62, 66);
+  background-color: var(--secondary-black);
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.skill-icon {
+  height: 40px;
+  margin-top: 30px;
+}
+
+.react-icon {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
