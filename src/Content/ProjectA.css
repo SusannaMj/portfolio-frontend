@@ -6,6 +6,7 @@
 .project-picture {
   max-width: 500px;
   margin-right: 40px;
+  animation: project-move-up 1s linear forwards;
 }
 
 .project-description {
@@ -19,4 +20,33 @@
   border-top-left-radius: 50px;
   text-wrap: pretty;
   text-align: left;
+  animation: project-fall-down 1s linear forwards;
+}
+
+@keyframes project-fall-down {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes project-move-up {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
