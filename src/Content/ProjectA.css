@@ -1,0 +1,22 @@
+.project-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-picture {
+  max-width: 500px;
+  margin-right: 40px;
+}
+
+.project-description {
+  background-color: var(--secondary-black);
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 400;
+
+  padding: 40px;
+
+  border-top-left-radius: 50px;
+  text-wrap: pretty;
+  text-align: left;
+}
