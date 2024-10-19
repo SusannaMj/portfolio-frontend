@@ -1,26 +1,27 @@
-.projectA-container {
+.projectB-container {
   display: flex;
   justify-content: space-between;
 }
 
-.projectA-picture {
+.projectB-picture {
   max-width: 500px;
-  margin-right: 40px;
-  animation: project-move-up 1s linear forwards;
+
+  animation: project-fall-down 1s linear forwards;
 }
 
-.projectA-description {
+.projectB-description {
   background-color: var(--secondary-black);
   line-height: 1.5;
   font-size: 20px;
   font-weight: 400;
+  margin-right: 40px;
 
   padding: 40px;
 
   border-top-left-radius: 50px;
   text-wrap: pretty;
   text-align: left;
-  animation: project-fall-down 1s linear forwards;
+  animation: project-move-up 1s linear forwards;
 }
 
 @keyframes project-fall-down {
