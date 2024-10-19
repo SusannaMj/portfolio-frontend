@@ -6,7 +6,7 @@
 .projectB-picture {
   max-width: 500px;
 
-  animation: project-fall-down 1s linear forwards;
+  animation: project-move-up 1s linear forwards;
 }
 
 .projectB-description {
@@ -21,7 +21,7 @@
   border-top-left-radius: 50px;
   text-wrap: pretty;
   text-align: left;
-  animation: project-move-up 1s linear forwards;
+  animation: project-fall-down 1s linear forwards;
 }
 
 @keyframes project-fall-down {
