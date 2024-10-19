@@ -9,7 +9,7 @@ import { FaHouseUser } from "react-icons/fa";
 export default function Header() {
   return (
     <header className="contact">
-      <div className="home-icon" style={{ paddingLeft: "10px" }}>
+      <div className="home-icon" style={{ marginLeft: "10px" }}>
         <Link to="/">
           <FaHouseUser
             style={{
@@ -20,7 +20,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="contact-right" style={{ marginRight: "40px" }}>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a href="https://github.com/SusannaMj" rel="noreferrer" target="_blank">
           <FaGithub
             style={{ color: "var(--grey-white)" }}
             className="contact-icon"
@@ -32,7 +32,11 @@ export default function Header() {
             className="contact-icon"
           />
         </a>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/susanna-m-54236a150/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <FaLinkedinIn
             style={{ color: "var(--grey-white)" }}
             className="contact-icon"
