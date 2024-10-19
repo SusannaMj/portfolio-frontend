@@ -26,7 +26,11 @@ export default function Header() {
             className="contact-icon"
           />
         </a>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a
+          href="mailto:this-is-just-an-example.com"
+          rel="noreferrer"
+          target="_blank"
+        >
           <FaEnvelope
             style={{ color: "var(--grey-white)" }}
             className="contact-icon"
