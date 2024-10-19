@@ -16,6 +16,7 @@ export default function ProjectB() {
           className="projectB-picture"
           src={gymWebsite}
           style={{ borderRadius: "15px" }}
+          alt="gym-website"
         />
       </div>
     </div>

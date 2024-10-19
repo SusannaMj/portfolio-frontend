@@ -20,61 +20,89 @@ export default function Skills() {
       <div className="coding-skills">
         <div className="skill">
           <div>HTML</div>
-          <img src={htmlIcon} className="skill-icon" />
+          <img src={htmlIcon} className="skill-icon" alt="html-icon" />
         </div>
         <div className="skill">
           <div>CSS</div>
-          <img src={cssIcon} className="skill-icon" />
+          <img src={cssIcon} className="skill-icon" alt="css-icon" />
         </div>
         <div className="skill">
           <div>JavaScript</div>
-          <img src={javascriptIcon} className="skill-icon" />
+          <img
+            src={javascriptIcon}
+            className="skill-icon"
+            alt="javascript-icon"
+          />
         </div>
         <div className="skill">
           <div>React.js</div>
-          <img src={reactIcon} className="skill-icon react-icon" />
+          <img
+            src={reactIcon}
+            className="skill-icon react-icon"
+            alt="react-icon"
+          />
         </div>
         <div className="skill">
           <div>Responsive Design</div>
-          <img src={responsiveIcon} className="skill-icon" />
+          <img
+            src={responsiveIcon}
+            className="skill-icon"
+            alt="responsive-icon"
+          />
         </div>
         <div className="skill">
           <div>Bootstrap</div>
-          <img src={frameworkIcon} className="skill-icon" />
+          <img
+            src={frameworkIcon}
+            className="skill-icon"
+            alt="frameworks-icon"
+          />
         </div>
         <div className="skill">
           <div>API integration</div>
-          <img src={apiIcon} className="skill-icon" />
+          <img src={apiIcon} className="skill-icon" alt="api-icon" />
         </div>
         <div className="skill">
           <div>AI integration</div>
-          <img src={aiIcon} className="skill-icon" />
+          <img src={aiIcon} className="skill-icon" alt="ai-icon" />
         </div>
       </div>
       <div className="soft-skills">
         <div className="skill">
           <div>Problem Solving</div>
-          <img src={problemSolvingIcon} className="skill-icon" />
+          <img
+            src={problemSolvingIcon}
+            className="skill-icon"
+            alt="problem-solving-icon"
+          />
         </div>
         <div className="skill">
           <div>Logical Thinking</div>
-          <img src={logicIcon} className="skill-icon" />
+          <img src={logicIcon} className="skill-icon" alt="logic-icon" />
         </div>
         <div className="skill">
           <div>Time Management</div>
-          <img className="skill-icon" src={timeManagementIcon} />
+          <img
+            className="skill-icon"
+            src={timeManagementIcon}
+            alt="time-management-icon"
+          />
         </div>
         <div className="skill">
           <div>Organised</div>
-          <img src={organisedIcon} className="skill-icon" />
+          <img
+            src={organisedIcon}
+            className="skill-icon"
+            alt="organised-icon"
+          />
         </div>
         <div className="skill">
           <div>Self-motivated</div>
-          <img src={learningIcon} className="skill-icon" />
+          <img src={learningIcon} className="skill-icon" alt="learning-icon" />
         </div>
         <div className="skill">
           <div>Research</div>
-          <img src={reasearchIcon} className="skill-icon" />
+          <img src={reasearchIcon} className="skill-icon" alt="research-icon" />
         </div>
       </div>
       <a href="https://www.freepik.com/search">Icon by Freepik</a>

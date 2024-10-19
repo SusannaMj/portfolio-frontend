@@ -11,6 +11,7 @@ export default function ProjectA() {
           className="projectA-picture"
           src={petProject}
           style={{ borderRadius: "15px" }}
+          alt="pet-adoption-website"
         />
         <div className="projectA-description">
           A responsive web application built to find your new best friend, with
