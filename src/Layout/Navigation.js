@@ -26,7 +26,7 @@ export default function Navigation() {
             <Link to="/skills">Skills</Link>
           </li>
           <li>
-            <Link>Projects</Link>
+            <div>Projects</div>
           </li>
           <ul className="project-list">
             <li>
@@ -36,7 +36,9 @@ export default function Navigation() {
               <Link to="project2">Project B</Link>
             </li>
             <li>
-              <Link to="project3">Project C</Link>{" "}
+              <Link to="project3" className="hidden">
+                Project C
+              </Link>{" "}
             </li>
           </ul>
         </ul>

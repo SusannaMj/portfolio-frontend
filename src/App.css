@@ -9,3 +9,7 @@
   --main-black: rgb(29, 29, 32);
   --secondary-black: rgb(61, 62, 66);
 }
+
+.hidden {
+  display: none;
+}
