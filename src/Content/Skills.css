@@ -40,6 +40,11 @@
   padding: 15px;
   font-size: 17px;
   font-weight: 600;
+  opacity: 0;
+}
+
+.fall-down {
+  animation: fall-down 2s forwards;
 }
 
 .skill-icon {
@@ -57,5 +62,15 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes fall-down {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

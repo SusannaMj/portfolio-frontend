@@ -14,7 +14,17 @@ import reasearchIcon from "../images/reasearch-icon.png";
 import problemSolvingIcon from "../images/problem-solving-icon.png";
 import learningIcon from "../images/learning-icon.png";
 import frameworkIcon from "../images/framework-icon.png";
+
+import { useEffect } from "react";
 export default function Skills() {
+  useEffect(function () {
+    const skill = document.querySelectorAll(".skill");
+    skill.forEach(function (skill, index) {
+      setTimeout(function () {
+        skill.classList.add("fall-down");
+      }, index * 250);
+    });
+  }, []);
   return (
     <div className="skills">
       <div className="coding-skills">
